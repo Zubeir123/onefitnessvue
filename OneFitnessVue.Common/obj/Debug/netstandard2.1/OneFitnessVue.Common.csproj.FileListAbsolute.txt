@@ -1,0 +1,10 @@
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Common\bin\Debug\netstandard2.1\OneFitnessVue.Common.deps.json
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Common\bin\Debug\netstandard2.1\OneFitnessVue.Common.dll
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Common\bin\Debug\netstandard2.1\OneFitnessVue.Common.pdb
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Common\obj\Debug\netstandard2.1\OneFitnessVue.Common.csproj.AssemblyReference.cache
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Common\obj\Debug\netstandard2.1\OneFitnessVue.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Common\obj\Debug\netstandard2.1\OneFitnessVue.Common.AssemblyInfoInputs.cache
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Common\obj\Debug\netstandard2.1\OneFitnessVue.Common.AssemblyInfo.cs
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Common\obj\Debug\netstandard2.1\OneFitnessVue.Common.csproj.CoreCompileInputs.cache
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Common\obj\Debug\netstandard2.1\OneFitnessVue.Common.dll
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Common\obj\Debug\netstandard2.1\OneFitnessVue.Common.pdb

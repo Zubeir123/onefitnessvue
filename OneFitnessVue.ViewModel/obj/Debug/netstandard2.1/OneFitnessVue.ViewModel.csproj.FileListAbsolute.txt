@@ -1,0 +1,15 @@
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\bin\Debug\netstandard2.1\OneFitnessVue.ViewModel.deps.json
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\bin\Debug\netstandard2.1\OneFitnessVue.ViewModel.dll
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\bin\Debug\netstandard2.1\OneFitnessVue.ViewModel.pdb
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\bin\Debug\netstandard2.1\OneFitnessVue.Common.dll
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\bin\Debug\netstandard2.1\OneFitnessVue.Model.dll
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\bin\Debug\netstandard2.1\OneFitnessVue.Model.pdb
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\bin\Debug\netstandard2.1\OneFitnessVue.Common.pdb
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\obj\Debug\netstandard2.1\OneFitnessVue.ViewModel.csproj.AssemblyReference.cache
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\obj\Debug\netstandard2.1\OneFitnessVue.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\obj\Debug\netstandard2.1\OneFitnessVue.ViewModel.AssemblyInfoInputs.cache
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\obj\Debug\netstandard2.1\OneFitnessVue.ViewModel.AssemblyInfo.cs
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\obj\Debug\netstandard2.1\OneFitnessVue.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\obj\Debug\netstandard2.1\OneFitne.420145BC.Up2Date
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\obj\Debug\netstandard2.1\OneFitnessVue.ViewModel.dll
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\obj\Debug\netstandard2.1\OneFitnessVue.ViewModel.pdb
