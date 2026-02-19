@@ -2,30 +2,30 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using OneFitnessVue.Common;
-using OneFitnessVue.Common.Notification;
+using FitnessTimeGym.Common;
+using FitnessTimeGym.Common.Notification;
 
-using OneFitnessVue.Data.Installments.Queries;
-using OneFitnessVue.Data.MemberRegistration.Command;
-using OneFitnessVue.Data.MemberRegistration.Queries;
-using OneFitnessVue.Data.MembershipType.Queries;
-using OneFitnessVue.Data.PaymentDetails.Queries;
-using OneFitnessVue.Data.PaymentType.Queries;
-using OneFitnessVue.Data.TaxMaster.Queries;
-using OneFitnessVue.Data.WorkOut.Queries;
-using OneFitnessVue.Model.MemberRegistration;
-using OneFitnessVue.Model.PaymentDetails;
-using OneFitnessVue.ViewModel.MemberRegistration;
-using OneFitnessVue.ViewModel.MembershipType;
-using OneFitnessVue.Web.Filters;
-using OneFitnessVue.Web.Helpers;
+using FitnessTimeGym.Data.Installments.Queries;
+using FitnessTimeGym.Data.MemberRegistration.Command;
+using FitnessTimeGym.Data.MemberRegistration.Queries;
+using FitnessTimeGym.Data.MembershipType.Queries;
+using FitnessTimeGym.Data.PaymentDetails.Queries;
+using FitnessTimeGym.Data.PaymentType.Queries;
+using FitnessTimeGym.Data.TaxMaster.Queries;
+using FitnessTimeGym.Data.WorkOut.Queries;
+using FitnessTimeGym.Model.MemberRegistration;
+using FitnessTimeGym.Model.PaymentDetails;
+using FitnessTimeGym.ViewModel.MemberRegistration;
+using FitnessTimeGym.ViewModel.MembershipType;
+using FitnessTimeGym.Web.Filters;
+using FitnessTimeGym.Web.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using OneFitnessVue.ViewModel.Documents;
+using FitnessTimeGym.ViewModel.Documents;
 
-namespace OneFitnessVue.Web.Areas.Service.Controllers
+namespace FitnessTimeGym.Web.Areas.Service.Controllers
 {
     [Area("Service")]
     [AuthorizeUser]

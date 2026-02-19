@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace OneFitnessVue.ViewModel.Login
+namespace FitnessTimeGym.ViewModel.Login
 {
     [NotMapped]
     public class LoginViewModel

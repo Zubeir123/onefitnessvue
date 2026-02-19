@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using OneFitnessVue.Model.PaymentDetails;
-using OneFitnessVue.ViewModel.MemberRegistration;
-using OneFitnessVue.ViewModel.PaymentDetails;
+using FitnessTimeGym.Model.PaymentDetails;
+using FitnessTimeGym.ViewModel.MemberRegistration;
+using FitnessTimeGym.ViewModel.PaymentDetails;
 
-namespace OneFitnessVue.Data.PaymentDetails.Queries
+namespace FitnessTimeGym.Data.PaymentDetails.Queries
 {
     public interface IPaymentDetailsQueries
     {

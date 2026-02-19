@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace OneFitnessVue.Model.MenuCategory
+namespace FitnessTimeGym.Model.MenuCategory
 {
     [Table("MenuCategory")]
     public class MenuCategoryModel

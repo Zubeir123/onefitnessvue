@@ -14,20 +14,20 @@ namespace AspNetCoreGeneratedDocument
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Web\Views\_ViewImports.cshtml"
-using OneFitnessVue.Web
+using FitnessTimeGym.Web
 
 #nullable disable
     ;
 #nullable restore
 #line 2 "C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Web\Views\_ViewImports.cshtml"
-using OneFitnessVue.Web.Models
+using FitnessTimeGym.Web.Models
 
 #nullable disable
     ;
     #line default
     #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"86e7bef296daf8fa61b1a490b3303d1f521a9274b97e04bcfcb0e94e06a035b0", @"/Views/Shared/_Styles.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"a06a5972f8c404ee91051b33042911ffd66dbbcb7125bee4e4a325e516a0bbb7", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"099c4755b0a6bffe3ce26bff76b5c613f354a4df66564924d285072cc9528d43", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     internal sealed class Views_Shared__Styles : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -64,7 +64,7 @@ using OneFitnessVue.Web.Models
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "86e7bef296daf8fa61b1a490b3303d1f521a9274b97e04bcfcb0e94e06a035b05918", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "86e7bef296daf8fa61b1a490b3303d1f521a9274b97e04bcfcb0e94e06a035b05920", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -92,7 +92,7 @@ using OneFitnessVue.Web.Models
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "86e7bef296daf8fa61b1a490b3303d1f521a9274b97e04bcfcb0e94e06a035b08004", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "86e7bef296daf8fa61b1a490b3303d1f521a9274b97e04bcfcb0e94e06a035b08006", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -120,7 +120,7 @@ using OneFitnessVue.Web.Models
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "86e7bef296daf8fa61b1a490b3303d1f521a9274b97e04bcfcb0e94e06a035b010089", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "86e7bef296daf8fa61b1a490b3303d1f521a9274b97e04bcfcb0e94e06a035b010091", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -148,7 +148,7 @@ using OneFitnessVue.Web.Models
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "86e7bef296daf8fa61b1a490b3303d1f521a9274b97e04bcfcb0e94e06a035b012176", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "86e7bef296daf8fa61b1a490b3303d1f521a9274b97e04bcfcb0e94e06a035b012178", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper>();
@@ -174,7 +174,7 @@ using OneFitnessVue.Web.Models
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "86e7bef296daf8fa61b1a490b3303d1f521a9274b97e04bcfcb0e94e06a035b013974", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "86e7bef296daf8fa61b1a490b3303d1f521a9274b97e04bcfcb0e94e06a035b013976", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -202,7 +202,7 @@ using OneFitnessVue.Web.Models
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "86e7bef296daf8fa61b1a490b3303d1f521a9274b97e04bcfcb0e94e06a035b016060", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "86e7bef296daf8fa61b1a490b3303d1f521a9274b97e04bcfcb0e94e06a035b016062", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace OneFitnessVue.ViewModel.Enquiry
+namespace FitnessTimeGym.ViewModel.Enquiry
 {
     public class EnquiryViewModel
     {

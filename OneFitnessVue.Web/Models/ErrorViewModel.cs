@@ -1,6 +1,6 @@
 using System;
 
-namespace OneFitnessVue.Web.Models
+namespace FitnessTimeGym.Web.Models
 {
     public class ErrorViewModel
     {

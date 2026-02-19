@@ -4,25 +4,25 @@ using System.Linq;
 using System.Linq.Dynamic.Core;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using OneFitnessVue.Data.EFContext;
-using OneFitnessVue.Model.Enquiry;
-using OneFitnessVue.ViewModel.Enquiry;
+using FitnessTimeGym.Data.EFContext;
+using FitnessTimeGym.Model.Enquiry;
+using FitnessTimeGym.ViewModel.Enquiry;
 
-namespace OneFitnessVue.Data.Enquiry.Queries
+namespace FitnessTimeGym.Data.Enquiry.Queries
 {
     public class EnquiryQueries : IEnquiryQueries
     {
-        private readonly OneFitnessVueContext _oneFitnessVueContext;
-        public EnquiryQueries(OneFitnessVueContext oneFitnessVueContext)
+        private readonly FitnessTimeGymContext _FitnessTimeGymContext;
+        public EnquiryQueries(FitnessTimeGymContext FitnessTimeGymContext)
         {
-            _oneFitnessVueContext = oneFitnessVueContext;
+            _FitnessTimeGymContext = FitnessTimeGymContext;
         }
 
         public EnquiryModel GetEnquiryDetailsByEnquiryId(int? enquiryId)
         {
             try
             {
-                var enquirydetails = (from enquiry in _oneFitnessVueContext.EnquiryModels
+                var enquirydetails = (from enquiry in _FitnessTimeGymContext.EnquiryModels
                                           where enquiry.EnquiryId == enquiryId
                                           select enquiry
                     ).FirstOrDefault();
@@ -39,7 +39,7 @@ namespace OneFitnessVue.Data.Enquiry.Queries
         {
             try
             {
-                var enquirycount = (from enquiry in _oneFitnessVueContext.EnquiryModels
+                var enquirycount = (from enquiry in _FitnessTimeGymContext.EnquiryModels
                         select enquiry
                     ).Count();
 
@@ -56,7 +56,7 @@ namespace OneFitnessVue.Data.Enquiry.Queries
         {
             try
             {
-                var reasonList = (from reasons in _oneFitnessVueContext.ReasonsModels
+                var reasonList = (from reasons in _FitnessTimeGymContext.ReasonsModels
 
                                   select new SelectListItem()
                                   {
@@ -83,9 +83,9 @@ namespace OneFitnessVue.Data.Enquiry.Queries
         {
             try
             {
-                var queryable = (from enquiry in _oneFitnessVueContext.EnquiryModels
+                var queryable = (from enquiry in _FitnessTimeGymContext.EnquiryModels
                                  
-                                 join reasons in _oneFitnessVueContext.ReasonsModels on enquiry.ReasonId equals reasons.ReasonId
+                                 join reasons in _FitnessTimeGymContext.ReasonsModels on enquiry.ReasonId equals reasons.ReasonId
                                  orderby enquiry.EnquiryId descending
                                  select new EnquiryGrid()
                                  {

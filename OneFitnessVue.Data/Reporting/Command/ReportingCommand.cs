@@ -1,21 +1,21 @@
-﻿using OneFitnessVue.Data.EFContext;
-using OneFitnessVue.Model.Reporting;
+﻿using FitnessTimeGym.Data.EFContext;
+using FitnessTimeGym.Model.Reporting;
 
-namespace OneFitnessVue.Data.Reporting.Command
+namespace FitnessTimeGym.Data.Reporting.Command
 {
     public class ReportingCommand : IReportingCommand
     {
-        private readonly OneFitnessVueContext _oneFitnessVueContext;
-        public ReportingCommand(OneFitnessVueContext oneFitnessVueContext)
+        private readonly FitnessTimeGymContext _FitnessTimeGymContext;
+        public ReportingCommand(FitnessTimeGymContext FitnessTimeGymContext)
         {
-            _oneFitnessVueContext = oneFitnessVueContext;
+            _FitnessTimeGymContext = FitnessTimeGymContext;
         }
 
 
         public void SaveReceiptHistory(ReceiptHistoryModel receiptHistoryModel)
         {
-            _oneFitnessVueContext.ReceiptHistory.Add(receiptHistoryModel);
-            _oneFitnessVueContext.SaveChangesAsync();
+            _FitnessTimeGymContext.ReceiptHistory.Add(receiptHistoryModel);
+            _FitnessTimeGymContext.SaveChangesAsync();
         }
 
     }

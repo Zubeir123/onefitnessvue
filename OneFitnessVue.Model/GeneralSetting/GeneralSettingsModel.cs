@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace OneFitnessVue.Model.GeneralSetting
+namespace FitnessTimeGym.Model.GeneralSetting
 {
     [Table("GeneralSettings")]
     public class GeneralSettingsModel

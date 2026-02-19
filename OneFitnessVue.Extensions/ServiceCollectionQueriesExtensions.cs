@@ -1,22 +1,22 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using OneFitnessVue.Common.Notification;
-using OneFitnessVue.Data.Enquiry.Queries;
-using OneFitnessVue.Data.GeneralSetting.Queries;
-using OneFitnessVue.Data.Installments.Queries;
-using OneFitnessVue.Data.MemberRegistration.Queries;
-using OneFitnessVue.Data.MembershipType.Queries;
-using OneFitnessVue.Data.MenuCategory.Queries;
-using OneFitnessVue.Data.MenuMaster.Queries;
-using OneFitnessVue.Data.PaymentDetails.Queries;
-using OneFitnessVue.Data.PaymentType.Queries;
-using OneFitnessVue.Data.Reporting.Queries;
-using OneFitnessVue.Data.TaxMaster.Queries;
-using OneFitnessVue.Data.UserMaster.Queries;
-using OneFitnessVue.Data.WorkOut.Queries;
-using OneFitnessVue.Services.Messages;
+using FitnessTimeGym.Common.Notification;
+using FitnessTimeGym.Data.Enquiry.Queries;
+using FitnessTimeGym.Data.GeneralSetting.Queries;
+using FitnessTimeGym.Data.Installments.Queries;
+using FitnessTimeGym.Data.MemberRegistration.Queries;
+using FitnessTimeGym.Data.MembershipType.Queries;
+using FitnessTimeGym.Data.MenuCategory.Queries;
+using FitnessTimeGym.Data.MenuMaster.Queries;
+using FitnessTimeGym.Data.PaymentDetails.Queries;
+using FitnessTimeGym.Data.PaymentType.Queries;
+using FitnessTimeGym.Data.Reporting.Queries;
+using FitnessTimeGym.Data.TaxMaster.Queries;
+using FitnessTimeGym.Data.UserMaster.Queries;
+using FitnessTimeGym.Data.WorkOut.Queries;
+using FitnessTimeGym.Services.Messages;
 
-namespace OneFitnessVue.Extensions
+namespace FitnessTimeGym.Extensions
 {
     public static class ServiceCollectionQueriesExtensions
     {

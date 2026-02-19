@@ -435,6 +435,7 @@ C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneF
 C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Web\obj\Debug\net5.0\OneFitnessVue.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Web\obj\Debug\net5.0\OneFitnessVue.Web.RazorAssemblyInfo.cache
 C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Web\obj\Debug\net5.0\OneFitnessVue.Web.RazorAssemblyInfo.cs
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Web\obj\Debug\net5.0\OneFitnessVue.Web.sourcelink.json
 C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Web\obj\Debug\net5.0\OneFitnessVue.Web.TagHelpers.input.cache
 C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Web\obj\Debug\net5.0\OneFitnessVue.Web.TagHelpers.output.cache
 C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Web\obj\Debug\net5.0\OneFitnessVue.Web.RazorCoreGenerate.cache

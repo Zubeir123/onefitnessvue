@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using OneFitnessVue.Data.EFContext;
-using OneFitnessVue.Model.TaxMaster;
+using FitnessTimeGym.Data.EFContext;
+using FitnessTimeGym.Model.TaxMaster;
 
-namespace OneFitnessVue.Data.TaxMaster.Queries
+namespace FitnessTimeGym.Data.TaxMaster.Queries
 {
     public class TaxMasterQueries : ITaxMasterQueries
     {
-        private readonly OneFitnessVueContext _oneFitnessVueContext;
-        public TaxMasterQueries(OneFitnessVueContext oneFitnessVueContext)
+        private readonly FitnessTimeGymContext _FitnessTimeGymContext;
+        public TaxMasterQueries(FitnessTimeGymContext FitnessTimeGymContext)
         {
-            _oneFitnessVueContext = oneFitnessVueContext;
+            _FitnessTimeGymContext = FitnessTimeGymContext;
         }
 
 

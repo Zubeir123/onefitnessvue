@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OneFitnessVue.Common
+namespace FitnessTimeGym.Common
 {
     public static class RandomUniqueToken
     {

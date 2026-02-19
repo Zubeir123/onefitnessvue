@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Newtonsoft.Json;
 
-namespace OneFitnessVue.Common.Notification
+namespace FitnessTimeGym.Common.Notification
 {
     public class NotificationService : INotificationService
     {

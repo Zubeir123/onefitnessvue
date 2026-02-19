@@ -14,20 +14,20 @@ namespace AspNetCoreGeneratedDocument
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Web\Areas\Service\Views\_ViewImports.cshtml"
-using OneFitnessVue
+using FitnessTimeGym
 
 #nullable disable
     ;
 #nullable restore
 #line 2 "C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Web\Areas\Service\Views\_ViewImports.cshtml"
-using OneFitnessVue.Model
+using FitnessTimeGym.Model
 
 #nullable disable
     ;
     #line default
     #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"3aef3c3f6e9145a7bf73ebb43d3637146c692f6ee8b26b94acd78d8693fd34c9", @"/Areas/Service/Views/PaymentHistory/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"b90e95ef272c2a4e9c1c8df2f5dce3aebb4ee2bcc333f601e989676f2918ea4b", @"/Areas/Service/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"49517d52d0fc7726f0b2abd9bee8e0447b377a4b8d3330a608bdef8c5594d2bb", @"/Areas/Service/Views/_ViewImports.cshtml")]
     #nullable restore
     internal sealed class Areas_Service_Views_PaymentHistory_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -135,7 +135,7 @@ using OneFitnessVue.Model
             WriteLiteral("\n\n");
             DefineSection("scripts", async() => {
                 WriteLiteral("\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3aef3c3f6e9145a7bf73ebb43d3637146c692f6ee8b26b94acd78d8693fd34c96496", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3aef3c3f6e9145a7bf73ebb43d3637146c692f6ee8b26b94acd78d8693fd34c96498", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

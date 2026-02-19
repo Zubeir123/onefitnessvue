@@ -1,30 +1,30 @@
 ﻿using Dapper;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
-using OneFitnessVue.Data.EFContext;
-using OneFitnessVue.Model.GeneralSetting;
-using OneFitnessVue.ViewModel.MemberRegistration;
+using FitnessTimeGym.Data.EFContext;
+using FitnessTimeGym.Model.GeneralSetting;
+using FitnessTimeGym.ViewModel.MemberRegistration;
 using System;
 using System.Data;
 using System.Linq;
 using System.Linq.Dynamic.Core;
 
-namespace OneFitnessVue.Data.GeneralSetting.Queries
+namespace FitnessTimeGym.Data.GeneralSetting.Queries
 {
     public class GeneralSettingQueries : IGeneralSettingQueries
     {
-        private readonly OneFitnessVueContext _oneFitnessVueContext;
+        private readonly FitnessTimeGymContext _FitnessTimeGymContext;
         private readonly IConfiguration _configuration;
-        public GeneralSettingQueries(OneFitnessVueContext oneFitnessVueContext, IConfiguration configuration)
+        public GeneralSettingQueries(FitnessTimeGymContext FitnessTimeGymContext, IConfiguration configuration)
         {
-            _oneFitnessVueContext = oneFitnessVueContext;
+            _FitnessTimeGymContext = FitnessTimeGymContext;
             _configuration = configuration;
         }
 
 
         public GeneralSettingsModel GetActiveGeneralSettings()
         {
-            var result = (from generalSetting in _oneFitnessVueContext.GeneralSettings
+            var result = (from generalSetting in _FitnessTimeGymContext.GeneralSettings
                 select generalSetting).FirstOrDefault();
 
             return result;

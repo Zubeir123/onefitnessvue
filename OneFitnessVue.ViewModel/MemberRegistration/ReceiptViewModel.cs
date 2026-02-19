@@ -1,6 +1,6 @@
-﻿using OneFitnessVue.Model.GeneralSetting;
+﻿using FitnessTimeGym.Model.GeneralSetting;
 
-namespace OneFitnessVue.ViewModel.MemberRegistration
+namespace FitnessTimeGym.ViewModel.MemberRegistration
 {
     public class ReceiptViewModel
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace OneFitnessVue.ViewModel.Messages
+namespace FitnessTimeGym.ViewModel.Messages
 {
     public class MessageTemplate
     {

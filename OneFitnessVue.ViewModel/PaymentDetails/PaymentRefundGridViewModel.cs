@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OneFitnessVue.ViewModel.PaymentDetails
+namespace FitnessTimeGym.ViewModel.PaymentDetails
 {
     public class PaymentRefundGridViewModel
     {

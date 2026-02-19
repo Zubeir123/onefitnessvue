@@ -14,20 +14,20 @@ namespace AspNetCoreGeneratedDocument
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Web\Views\_ViewImports.cshtml"
-using OneFitnessVue.Web
+using FitnessTimeGym.Web
 
 #nullable disable
     ;
 #nullable restore
 #line 2 "C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Web\Views\_ViewImports.cshtml"
-using OneFitnessVue.Web.Models
+using FitnessTimeGym.Web.Models
 
 #nullable disable
     ;
     #line default
     #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"4a274324cebc4d4ba7018860c3c52d1a7f79d02412be6f57c4a04eb4e47b772a", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"a06a5972f8c404ee91051b33042911ffd66dbbcb7125bee4e4a325e516a0bbb7", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"099c4755b0a6bffe3ce26bff76b5c613f354a4df66564924d285072cc9528d43", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     internal sealed class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

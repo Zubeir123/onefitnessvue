@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using OneFitnessVue.Data.EFContext;
+using FitnessTimeGym.Data.EFContext;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Dynamic.Core;
 
-namespace OneFitnessVue.Data.WorkOut.Queries
+namespace FitnessTimeGym.Data.WorkOut.Queries
 {
     public class WorkOutQueries : IWorkOutQueries
     {

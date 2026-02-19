@@ -1,22 +1,22 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
-using OneFitnessVue.Common;
-using OneFitnessVue.Data.EFContext;
-using OneFitnessVue.Model.MenuCategory;
+using FitnessTimeGym.Common;
+using FitnessTimeGym.Data.EFContext;
+using FitnessTimeGym.Model.MenuCategory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Dynamic.Core;
 
-namespace OneFitnessVue.Data.MenuCategory.Queries
+namespace FitnessTimeGym.Data.MenuCategory.Queries
 {
     public class MenuCategoryQueries : IMenuCategoryQueries
     {
-        private readonly OneFitnessVueContext _oneFitnessVueContext;
+        private readonly FitnessTimeGymContext _FitnessTimeGymContext;
         private readonly IMemoryCache _cache;
-        public MenuCategoryQueries(OneFitnessVueContext oneFitnessVueContext, IMemoryCache cache)
+        public MenuCategoryQueries(FitnessTimeGymContext FitnessTimeGymContext, IMemoryCache cache)
         {
-            _oneFitnessVueContext = oneFitnessVueContext;
+            _FitnessTimeGymContext = FitnessTimeGymContext;
             _cache = cache;
         }
 
@@ -27,7 +27,7 @@ namespace OneFitnessVue.Data.MenuCategory.Queries
             List<MenuCategoryModel> menuCategory;
             if (_cache.Get(key) == null)
             {
-                var result = (from category in _oneFitnessVueContext.MenuCategorys.AsNoTracking()
+                var result = (from category in _FitnessTimeGymContext.MenuCategorys.AsNoTracking()
                               orderby category.SortingOrder ascending
                               where category.RoleId == roleId
                               select category).ToList();

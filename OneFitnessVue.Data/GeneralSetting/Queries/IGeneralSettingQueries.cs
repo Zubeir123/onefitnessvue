@@ -1,8 +1,8 @@
 ﻿using System.Linq;
-using OneFitnessVue.Model.GeneralSetting;
-using OneFitnessVue.ViewModel.MemberRegistration;
+using FitnessTimeGym.Model.GeneralSetting;
+using FitnessTimeGym.ViewModel.MemberRegistration;
 
-namespace OneFitnessVue.Data.GeneralSetting.Queries
+namespace FitnessTimeGym.Data.GeneralSetting.Queries
 {
     public interface IGeneralSettingQueries
     {

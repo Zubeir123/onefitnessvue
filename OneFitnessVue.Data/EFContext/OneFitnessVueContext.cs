@@ -1,19 +1,19 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using OneFitnessVue.Model.Enquiry;
-using OneFitnessVue.Model.GeneralSetting;
-using OneFitnessVue.Model.MemberRegistration;
-using OneFitnessVue.Model.MenuCategory;
-using OneFitnessVue.Model.MenuMaster;
-using OneFitnessVue.Model.PaymentDetails;
-using OneFitnessVue.Model.Reasons;
-using OneFitnessVue.Model.Reporting;
-using OneFitnessVue.Model.UserMaster;
+using FitnessTimeGym.Model.Enquiry;
+using FitnessTimeGym.Model.GeneralSetting;
+using FitnessTimeGym.Model.MemberRegistration;
+using FitnessTimeGym.Model.MenuCategory;
+using FitnessTimeGym.Model.MenuMaster;
+using FitnessTimeGym.Model.PaymentDetails;
+using FitnessTimeGym.Model.Reasons;
+using FitnessTimeGym.Model.Reporting;
+using FitnessTimeGym.Model.UserMaster;
 
-namespace OneFitnessVue.Data.EFContext
+namespace FitnessTimeGym.Data.EFContext
 {
-    public class OneFitnessVueContext : DbContext
+    public class FitnessTimeGymContext : DbContext
     {
-        public OneFitnessVueContext(DbContextOptions<OneFitnessVueContext> options) : base(options)
+        public FitnessTimeGymContext(DbContextOptions<FitnessTimeGymContext> options) : base(options)
         {
 
         }

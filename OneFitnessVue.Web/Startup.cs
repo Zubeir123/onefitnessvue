@@ -13,11 +13,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
-using OneFitnessVue.Common;
-using OneFitnessVue.Data.EFContext;
-using OneFitnessVue.Extensions;
+using FitnessTimeGym.Common;
+using FitnessTimeGym.Data.EFContext;
+using FitnessTimeGym.Extensions;
 
-namespace OneFitnessVue.Web
+namespace FitnessTimeGym.Web
 {
     public class Startup
     {
@@ -39,7 +39,7 @@ namespace OneFitnessVue.Web
 
             var connection = Configuration.GetConnectionString("DatabaseConnection");
 
-            services.AddDbContext<OneFitnessVueContext>(options => options.UseSqlServer(connection));
+            services.AddDbContext<FitnessTimeGymContext>(options => options.UseSqlServer(connection));
      
             services.Configure<ConnectionStrings>(Configuration.GetSection("ConnectionStrings"));
 

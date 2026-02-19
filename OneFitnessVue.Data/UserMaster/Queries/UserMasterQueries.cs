@@ -1,27 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Dynamic.Core;
-using OneFitnessVue.Data.EFContext;
+using FitnessTimeGym.Data.EFContext;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using OneFitnessVue.Model.UserMaster;
-using OneFitnessVue.ViewModel.Usermaster;
+using FitnessTimeGym.Model.UserMaster;
+using FitnessTimeGym.ViewModel.Usermaster;
 
-namespace OneFitnessVue.Data.UserMaster.Queries
+namespace FitnessTimeGym.Data.UserMaster.Queries
 {
     public class UserMasterQueries : IUserMasterQueries
     {
-        private readonly OneFitnessVueContext _oneFitnessVueContext;
-        public UserMasterQueries(OneFitnessVueContext oneFitnessVueContext)
+        private readonly FitnessTimeGymContext _FitnessTimeGymContext;
+        public UserMasterQueries(FitnessTimeGymContext FitnessTimeGymContext)
         {
-            _oneFitnessVueContext = oneFitnessVueContext;
+            _FitnessTimeGymContext = FitnessTimeGymContext;
         }
 
         public UserMasterModel GetUserById(int? userId)
         {
             try
             {
-                return _oneFitnessVueContext.UserMasters.Find(userId);
+                return _FitnessTimeGymContext.UserMasters.Find(userId);
             }
             catch (Exception)
             {
@@ -34,7 +34,7 @@ namespace OneFitnessVue.Data.UserMaster.Queries
         {
             try
             {
-                var result = (from menu in _oneFitnessVueContext.UserMasters
+                var result = (from menu in _FitnessTimeGymContext.UserMasters
                     where menu.UserName == username
                     select menu).Any();
 
@@ -50,7 +50,7 @@ namespace OneFitnessVue.Data.UserMaster.Queries
         {
             try
             {
-                var result = (from usermaster in _oneFitnessVueContext.UserMasters
+                var result = (from usermaster in _FitnessTimeGymContext.UserMasters
                     where usermaster.UserName == username
                     select usermaster).FirstOrDefault();
 
@@ -64,7 +64,7 @@ namespace OneFitnessVue.Data.UserMaster.Queries
 
         public CommonUserDetailsViewModel GetCommonUserDetailsbyUserName(string username)
         {
-            var userdata = (from tempuser in _oneFitnessVueContext.UserMasters
+            var userdata = (from tempuser in _FitnessTimeGymContext.UserMasters
                 
                 
                 where tempuser.UserName == username

@@ -5,12 +5,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using OfficeOpenXml;
 using OfficeOpenXml.Table;
-using OneFitnessVue.Common.Notification;
-using OneFitnessVue.Data.Reporting.Queries;
-using OneFitnessVue.ViewModel.Reporting;
-using OneFitnessVue.Web.Filters;
+using FitnessTimeGym.Common.Notification;
+using FitnessTimeGym.Data.Reporting.Queries;
+using FitnessTimeGym.ViewModel.Reporting;
+using FitnessTimeGym.Web.Filters;
 
-namespace OneFitnessVue.Web.Areas.Service.Controllers
+namespace FitnessTimeGym.Web.Areas.Service.Controllers
 {
     [Area("Service")]
     [AuthorizeUser]

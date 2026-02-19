@@ -1,6 +1,6 @@
-﻿using OneFitnessVue.Model.Enquiry;
+﻿using FitnessTimeGym.Model.Enquiry;
 
-namespace OneFitnessVue.Data.Enquiry.Command
+namespace FitnessTimeGym.Data.Enquiry.Command
 {
     public interface IEnquiryCommand
     {

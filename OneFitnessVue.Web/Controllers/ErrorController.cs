@@ -5,9 +5,9 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
-using OneFitnessVue.Common;
+using FitnessTimeGym.Common;
 
-namespace OneFitnessVue.Web.Controllers
+namespace FitnessTimeGym.Web.Controllers
 {
     public class ErrorController : Controller
     {

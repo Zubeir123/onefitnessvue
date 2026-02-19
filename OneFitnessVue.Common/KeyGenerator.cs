@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace OneFitnessVue.Common
+namespace FitnessTimeGym.Common
 {
     public class KeyGenerator
     {

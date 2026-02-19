@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
 
-namespace OneFitnessVue.Web.Helpers
+namespace FitnessTimeGym.Web.Helpers
 {
     public static class MenuStateHelper
     {

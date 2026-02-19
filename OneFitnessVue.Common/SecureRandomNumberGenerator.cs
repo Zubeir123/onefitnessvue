@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography;
 
-namespace OneFitnessVue.Common
+namespace FitnessTimeGym.Common
 {
     public partial class SecureRandomNumberGenerator : RandomNumberGenerator
     {

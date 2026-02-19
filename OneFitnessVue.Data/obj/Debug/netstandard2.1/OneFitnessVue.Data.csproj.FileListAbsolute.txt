@@ -12,6 +12,7 @@ C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneF
 C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Data\obj\Debug\netstandard2.1\OneFitnessVue.Data.AssemblyInfoInputs.cache
 C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Data\obj\Debug\netstandard2.1\OneFitnessVue.Data.AssemblyInfo.cs
 C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Data\obj\Debug\netstandard2.1\OneFitnessVue.Data.csproj.CoreCompileInputs.cache
+C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Data\obj\Debug\netstandard2.1\OneFitnessVue.Data.sourcelink.json
 C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Data\obj\Debug\netstandard2.1\OneFitne.172000EF.Up2Date
 C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Data\obj\Debug\netstandard2.1\OneFitnessVue.Data.dll
 C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Data\obj\Debug\netstandard2.1\OneFitnessVue.Data.pdb

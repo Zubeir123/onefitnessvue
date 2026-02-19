@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace OneFitnessVue.Model.UserMaster
+namespace FitnessTimeGym.Model.UserMaster
 {
     [Table("Usermaster")]
     public class UserMasterModel

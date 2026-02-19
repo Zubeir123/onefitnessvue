@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using OneFitnessVue.Model.UserMaster;
-using OneFitnessVue.ViewModel.Usermaster;
+using FitnessTimeGym.Model.UserMaster;
+using FitnessTimeGym.ViewModel.Usermaster;
 
-namespace OneFitnessVue.Data.UserMaster.Queries
+namespace FitnessTimeGym.Data.UserMaster.Queries
 {
     public interface IUserMasterQueries
     {

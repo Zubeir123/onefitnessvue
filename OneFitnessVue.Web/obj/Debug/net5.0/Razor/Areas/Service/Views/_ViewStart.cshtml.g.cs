@@ -14,20 +14,20 @@ namespace AspNetCoreGeneratedDocument
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Web\Areas\Service\Views\_ViewImports.cshtml"
-using OneFitnessVue
+using FitnessTimeGym
 
 #nullable disable
     ;
 #nullable restore
 #line 2 "C:\Users\zubeir\mainfolder\systems\gym-management-system\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.Web\Areas\Service\Views\_ViewImports.cshtml"
-using OneFitnessVue.Model
+using FitnessTimeGym.Model
 
 #nullable disable
     ;
     #line default
     #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"28d64d27ac0a2c8ba7a1f35aaaf97c318f6dbd2077f4c027e185f7ac958700a1", @"/Areas/Service/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"b90e95ef272c2a4e9c1c8df2f5dce3aebb4ee2bcc333f601e989676f2918ea4b", @"/Areas/Service/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"49517d52d0fc7726f0b2abd9bee8e0447b377a4b8d3330a608bdef8c5594d2bb", @"/Areas/Service/Views/_ViewImports.cshtml")]
     #nullable restore
     internal sealed class Areas_Service_Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

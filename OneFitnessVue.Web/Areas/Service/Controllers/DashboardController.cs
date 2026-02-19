@@ -1,19 +1,19 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using OneFitnessVue.Common;
-using OneFitnessVue.Common.Notification;
-using OneFitnessVue.Data.Enquiry.Queries;
-using OneFitnessVue.Data.Reporting.Queries;
-using OneFitnessVue.Data.UserMaster.Queries;
-using OneFitnessVue.ViewModel.Dashboard;
-using OneFitnessVue.ViewModel.Reporting;
-using OneFitnessVue.ViewModel.Usermaster;
-using OneFitnessVue.Web.Filters;
+using FitnessTimeGym.Common;
+using FitnessTimeGym.Common.Notification;
+using FitnessTimeGym.Data.Enquiry.Queries;
+using FitnessTimeGym.Data.Reporting.Queries;
+using FitnessTimeGym.Data.UserMaster.Queries;
+using FitnessTimeGym.ViewModel.Dashboard;
+using FitnessTimeGym.ViewModel.Reporting;
+using FitnessTimeGym.ViewModel.Usermaster;
+using FitnessTimeGym.Web.Filters;
 using System;
 using System.Collections.Generic;
 
-namespace OneFitnessVue.Web.Areas.Service.Controllers
+namespace FitnessTimeGym.Web.Areas.Service.Controllers
 {
     [Area("Service")]
     [AuthorizeUser]

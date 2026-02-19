@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 // ReSharper disable All
 
-namespace OneFitnessVue.ViewModel.Dashboard
+namespace FitnessTimeGym.ViewModel.Dashboard
 {
     
     public class BarchartResponse

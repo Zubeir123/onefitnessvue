@@ -4,19 +4,19 @@ using Dapper;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using OneFitnessVue.Data.EFContext;
-using OneFitnessVue.Model.MemberRegistration;
-using OneFitnessVue.Model.PaymentDetails;
+using FitnessTimeGym.Data.EFContext;
+using FitnessTimeGym.Model.MemberRegistration;
+using FitnessTimeGym.Model.PaymentDetails;
 
-namespace OneFitnessVue.Data.MemberRegistration.Command
+namespace FitnessTimeGym.Data.MemberRegistration.Command
 {
     public class MemberRegistrationCommand : IMemberRegistrationCommand
     {
-        private readonly OneFitnessVueContext _oneFitnessVueContext;
+        private readonly FitnessTimeGymContext _FitnessTimeGymContext;
         private readonly IConfiguration _configuration;
-        public MemberRegistrationCommand(OneFitnessVueContext oneFitnessVueContext, IConfiguration configuration)
+        public MemberRegistrationCommand(FitnessTimeGymContext FitnessTimeGymContext, IConfiguration configuration)
         {
-            _oneFitnessVueContext = oneFitnessVueContext;
+            _FitnessTimeGymContext = FitnessTimeGymContext;
             _configuration = configuration;
         }
 
@@ -24,13 +24,13 @@ namespace OneFitnessVue.Data.MemberRegistration.Command
         {
             string result;
 
-            using var transaction = _oneFitnessVueContext.Database.BeginTransaction();
-            _oneFitnessVueContext.MemberRegistrationModels.Add(memberRegistration);
-            var resultmember = _oneFitnessVueContext.SaveChanges();
+            using var transaction = _FitnessTimeGymContext.Database.BeginTransaction();
+            _FitnessTimeGymContext.MemberRegistrationModels.Add(memberRegistration);
+            var resultmember = _FitnessTimeGymContext.SaveChanges();
 
             paymentDetailsModel.MemberID = memberRegistration.MemberId;
-            _oneFitnessVueContext.PaymentDetailsModels.Add(paymentDetailsModel);
-            var resultpayment = _oneFitnessVueContext.SaveChanges();
+            _FitnessTimeGymContext.PaymentDetailsModels.Add(paymentDetailsModel);
+            var resultpayment = _FitnessTimeGymContext.SaveChanges();
 
             if (resultmember > 0 && resultpayment > 0)
             {
@@ -52,12 +52,12 @@ namespace OneFitnessVue.Data.MemberRegistration.Command
         {
             string result;
 
-            using var transaction = _oneFitnessVueContext.Database.BeginTransaction();
-            _oneFitnessVueContext.Entry(memberRegistration).State = EntityState.Modified;
-            var resultmember = _oneFitnessVueContext.SaveChanges();
+            using var transaction = _FitnessTimeGymContext.Database.BeginTransaction();
+            _FitnessTimeGymContext.Entry(memberRegistration).State = EntityState.Modified;
+            var resultmember = _FitnessTimeGymContext.SaveChanges();
 
-            _oneFitnessVueContext.Entry(paymentDetailsModel).State = EntityState.Modified;
-            var resultpayment = _oneFitnessVueContext.SaveChanges();
+            _FitnessTimeGymContext.Entry(paymentDetailsModel).State = EntityState.Modified;
+            var resultpayment = _FitnessTimeGymContext.SaveChanges();
 
 
             if (resultmember > 0 && resultpayment > 0)
@@ -105,8 +105,8 @@ namespace OneFitnessVue.Data.MemberRegistration.Command
 
         public int DeactivateMember(MemberRegistrationModel memberRegistration)
         {
-            _oneFitnessVueContext.Entry(memberRegistration).State = EntityState.Modified;
-            return _oneFitnessVueContext.SaveChanges();
+            _FitnessTimeGymContext.Entry(memberRegistration).State = EntityState.Modified;
+            return _FitnessTimeGymContext.SaveChanges();
         }
 
     }

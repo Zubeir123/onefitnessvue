@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace OneFitnessVue.Model.Reasons
+namespace FitnessTimeGym.Model.Reasons
 {
     [Table("Reasons")]
     public class ReasonsModel

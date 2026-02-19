@@ -1,4 +1,4 @@
-﻿namespace OneFitnessVue.ViewModel.Enquiry
+﻿namespace FitnessTimeGym.ViewModel.Enquiry
 {
     public class EnquiryGrid
     {

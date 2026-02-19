@@ -1,4 +1,4 @@
-﻿namespace OneFitnessVue.ViewModel.Installments
+﻿namespace FitnessTimeGym.ViewModel.Installments
 {
     public class InstallmentEditViewModel
     {

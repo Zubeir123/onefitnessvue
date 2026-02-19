@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using OneFitnessVue.Model.MenuCategory;
+using FitnessTimeGym.Model.MenuCategory;
 
 
-namespace OneFitnessVue.Data.MenuCategory.Queries
+namespace FitnessTimeGym.Data.MenuCategory.Queries
 {
     public interface IMenuCategoryQueries
     {

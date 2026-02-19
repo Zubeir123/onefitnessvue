@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace OneFitnessVue.Data.PaymentType.Queries
+namespace FitnessTimeGym.Data.PaymentType.Queries
 {
     public interface IPaymentTypeQueries
     {

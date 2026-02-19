@@ -5,10 +5,10 @@ using System.Linq;
 using Dapper;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
-using OneFitnessVue.ViewModel.MemberRegistration;
-using OneFitnessVue.ViewModel.Reporting;
+using FitnessTimeGym.ViewModel.MemberRegistration;
+using FitnessTimeGym.ViewModel.Reporting;
 
-namespace OneFitnessVue.Data.Reporting.Queries
+namespace FitnessTimeGym.Data.Reporting.Queries
 {
     public class ReportingQueries : IReportingQueries
     {

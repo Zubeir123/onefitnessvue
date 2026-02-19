@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using OneFitnessVue.Common;
-using OneFitnessVue.Common.Notification;
-using OneFitnessVue.Data.Enquiry.Command;
-using OneFitnessVue.Data.Enquiry.Queries;
-using OneFitnessVue.Data.MemberRegistration.Queries;
-using OneFitnessVue.Data.WorkOut.Queries;
-using OneFitnessVue.Model.Enquiry;
-using OneFitnessVue.Model.MemberRegistration;
-using OneFitnessVue.Model.PaymentDetails;
-using OneFitnessVue.ViewModel.Enquiry;
-using OneFitnessVue.ViewModel.MemberRegistration;
-using OneFitnessVue.Web.Filters;
-using OneFitnessVue.Web.Helpers;
+using FitnessTimeGym.Common;
+using FitnessTimeGym.Common.Notification;
+using FitnessTimeGym.Data.Enquiry.Command;
+using FitnessTimeGym.Data.Enquiry.Queries;
+using FitnessTimeGym.Data.MemberRegistration.Queries;
+using FitnessTimeGym.Data.WorkOut.Queries;
+using FitnessTimeGym.Model.Enquiry;
+using FitnessTimeGym.Model.MemberRegistration;
+using FitnessTimeGym.Model.PaymentDetails;
+using FitnessTimeGym.ViewModel.Enquiry;
+using FitnessTimeGym.ViewModel.MemberRegistration;
+using FitnessTimeGym.Web.Filters;
+using FitnessTimeGym.Web.Helpers;
 
-namespace OneFitnessVue.Web.Areas.Service.Controllers
+namespace FitnessTimeGym.Web.Areas.Service.Controllers
 {
     [Area("Service")]
     [AuthorizeUser]

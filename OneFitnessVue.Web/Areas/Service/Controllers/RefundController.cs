@@ -4,16 +4,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
-using OneFitnessVue.Common;
-using OneFitnessVue.Common.Notification;
-using OneFitnessVue.Data.MemberRegistration.Command;
-using OneFitnessVue.Data.PaymentDetails.Command;
-using OneFitnessVue.Data.PaymentDetails.Queries;
-using OneFitnessVue.Model.PaymentDetails;
-using OneFitnessVue.ViewModel.PaymentDetails;
-using OneFitnessVue.Web.Filters;
+using FitnessTimeGym.Common;
+using FitnessTimeGym.Common.Notification;
+using FitnessTimeGym.Data.MemberRegistration.Command;
+using FitnessTimeGym.Data.PaymentDetails.Command;
+using FitnessTimeGym.Data.PaymentDetails.Queries;
+using FitnessTimeGym.Model.PaymentDetails;
+using FitnessTimeGym.ViewModel.PaymentDetails;
+using FitnessTimeGym.Web.Filters;
 
-namespace OneFitnessVue.Web.Areas.Service.Controllers
+namespace FitnessTimeGym.Web.Areas.Service.Controllers
 {
     [Area("Service")]
     [AuthorizeUser]

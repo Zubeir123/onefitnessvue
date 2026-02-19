@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using OneFitnessVue.Data.EFContext;
-using OneFitnessVue.Model.MembershipType;
-using OneFitnessVue.ViewModel.MembershipType;
+using FitnessTimeGym.Data.EFContext;
+using FitnessTimeGym.Model.MembershipType;
+using FitnessTimeGym.ViewModel.MembershipType;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Dynamic.Core;
 
-namespace OneFitnessVue.Data.MembershipType.Queries
+namespace FitnessTimeGym.Data.MembershipType.Queries
 {
     public class MembershipTypeQueries : IMembershipTypeQueries
     {

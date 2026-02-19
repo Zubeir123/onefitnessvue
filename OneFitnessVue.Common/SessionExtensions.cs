@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 
-namespace OneFitnessVue.Common
+namespace FitnessTimeGym.Common
 {
     /// <summary>
     /// Represents extensions of ISession

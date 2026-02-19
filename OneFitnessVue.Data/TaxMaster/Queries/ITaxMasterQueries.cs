@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using OneFitnessVue.Model.TaxMaster;
+using FitnessTimeGym.Model.TaxMaster;
 
-namespace OneFitnessVue.Data.TaxMaster.Queries
+namespace FitnessTimeGym.Data.TaxMaster.Queries
 {
     public interface ITaxMasterQueries
     {

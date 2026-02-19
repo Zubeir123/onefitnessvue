@@ -1,6 +1,6 @@
-﻿using OneFitnessVue.Model.Reporting;
+﻿using FitnessTimeGym.Model.Reporting;
 
-namespace OneFitnessVue.Data.Reporting.Command
+namespace FitnessTimeGym.Data.Reporting.Command
 {
     public interface IReportingCommand
     {

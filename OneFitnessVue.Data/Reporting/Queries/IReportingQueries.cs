@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using OneFitnessVue.ViewModel.Reporting;
+using FitnessTimeGym.ViewModel.Reporting;
 
-namespace OneFitnessVue.Data.Reporting.Queries
+namespace FitnessTimeGym.Data.Reporting.Queries
 {
     public interface IReportingQueries
     {

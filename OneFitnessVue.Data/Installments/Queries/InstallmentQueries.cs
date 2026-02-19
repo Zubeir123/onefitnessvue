@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using OneFitnessVue.Data.EFContext;
+using FitnessTimeGym.Data.EFContext;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Dynamic.Core;
-using OneFitnessVue.ViewModel.Installments;
+using FitnessTimeGym.ViewModel.Installments;
 
-namespace OneFitnessVue.Data.Installments.Queries
+namespace FitnessTimeGym.Data.Installments.Queries
 {
     public class InstallmentQueries : IInstallmentQueries
     {

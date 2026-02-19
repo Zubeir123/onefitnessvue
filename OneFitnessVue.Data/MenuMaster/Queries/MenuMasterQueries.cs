@@ -5,21 +5,21 @@ using System.Linq.Dynamic.Core;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
-using OneFitnessVue.Common;
-using OneFitnessVue.Data.EFContext;
-using OneFitnessVue.Model.MenuMaster;
+using FitnessTimeGym.Common;
+using FitnessTimeGym.Data.EFContext;
+using FitnessTimeGym.Model.MenuMaster;
 
 
 
-namespace OneFitnessVue.Data.MenuMaster.Queries
+namespace FitnessTimeGym.Data.MenuMaster.Queries
 {
     public class MenuMasterQueries: IMenuMasterQueries
     {
-        private readonly OneFitnessVueContext _oneFitnessVueContext;
+        private readonly FitnessTimeGymContext _FitnessTimeGymContext;
         private readonly IMemoryCache _cache;
-        public MenuMasterQueries(OneFitnessVueContext oneFitnessVueContext, IMemoryCache cache)
+        public MenuMasterQueries(FitnessTimeGymContext FitnessTimeGymContext, IMemoryCache cache)
         {
-            _oneFitnessVueContext = oneFitnessVueContext;
+            _FitnessTimeGymContext = FitnessTimeGymContext;
             _cache = cache;
         }
 
@@ -29,7 +29,7 @@ namespace OneFitnessVue.Data.MenuMaster.Queries
             List<MenuMasterModel> menuList;
             if (_cache.Get(key) == null)
             {
-                var result = (from menu in _oneFitnessVueContext.MenuMasters.AsNoTracking()
+                var result = (from menu in _FitnessTimeGymContext.MenuMasters.AsNoTracking()
                               orderby menu.SortingOrder ascending
                               where menu.Status == true
                               select menu).ToList();

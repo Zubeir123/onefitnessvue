@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using OneFitnessVue.Data.MenuCategory.Queries;
+using FitnessTimeGym.Data.MenuCategory.Queries;
 
-namespace OneFitnessVue.Web.Views.Shared.Components.SideMenu
+namespace FitnessTimeGym.Web.Views.Shared.Components.SideMenu
 {
     public class SideMenuViewComponent : ViewComponent
     {

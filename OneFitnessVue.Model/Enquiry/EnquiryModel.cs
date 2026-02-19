@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace OneFitnessVue.Model.Enquiry
+namespace FitnessTimeGym.Model.Enquiry
 {
     [Table("Enquiry")]
     public class EnquiryModel

@@ -1,17 +1,17 @@
 ﻿using DNTCaptcha.Core;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using OneFitnessVue.Common;
-using OneFitnessVue.Data.UserMaster.Queries;
-using OneFitnessVue.Services.Messages;
-using OneFitnessVue.ViewModel.Login;
-using OneFitnessVue.ViewModel.Messages;
-using OneFitnessVue.ViewModel.Usermaster;
+using FitnessTimeGym.Common;
+using FitnessTimeGym.Data.UserMaster.Queries;
+using FitnessTimeGym.Services.Messages;
+using FitnessTimeGym.ViewModel.Login;
+using FitnessTimeGym.ViewModel.Messages;
+using FitnessTimeGym.ViewModel.Usermaster;
 using System;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace OneFitnessVue.Web.Controllers
+namespace FitnessTimeGym.Web.Controllers
 {
     public class PortalController : Controller
     {
@@ -137,7 +137,7 @@ namespace OneFitnessVue.Web.Controllers
                 MessageTemplate messageTemplate = new MessageTemplate()
                 {
                     ToAddress = userdetails.EmailId,
-                    Subject = "Welcome to OneFitnessVue",
+                    Subject = "Welcome to FitnessTimeGym",
                     Body = body
                 };
 

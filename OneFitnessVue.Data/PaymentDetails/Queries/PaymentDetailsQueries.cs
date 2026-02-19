@@ -8,26 +8,26 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using OneFitnessVue.Data.EFContext;
-using OneFitnessVue.Model.PaymentDetails;
-using OneFitnessVue.ViewModel.MemberRegistration;
-using OneFitnessVue.ViewModel.PaymentDetails;
+using FitnessTimeGym.Data.EFContext;
+using FitnessTimeGym.Model.PaymentDetails;
+using FitnessTimeGym.ViewModel.MemberRegistration;
+using FitnessTimeGym.ViewModel.PaymentDetails;
 
-namespace OneFitnessVue.Data.PaymentDetails.Queries
+namespace FitnessTimeGym.Data.PaymentDetails.Queries
 {
     public class PaymentDetailsQueries : IPaymentDetailsQueries
     {
-        private readonly OneFitnessVueContext _oneFitnessVueContext;
+        private readonly FitnessTimeGymContext _FitnessTimeGymContext;
         private readonly IConfiguration _configuration;
-        public PaymentDetailsQueries(OneFitnessVueContext oneFitnessVueContext, IConfiguration configuration)
+        public PaymentDetailsQueries(FitnessTimeGymContext FitnessTimeGymContext, IConfiguration configuration)
         {
-            _oneFitnessVueContext = oneFitnessVueContext;
+            _FitnessTimeGymContext = FitnessTimeGymContext;
             _configuration = configuration;
         }
 
         public List<PaymentDetailsViewModel> ListofPayments(long? memberId)
         {
-            var result = (from paymentDetails in _oneFitnessVueContext.PaymentDetailsModels.AsNoTracking()
+            var result = (from paymentDetails in _FitnessTimeGymContext.PaymentDetailsModels.AsNoTracking()
                           where paymentDetails.MemberID == memberId
                           orderby paymentDetails.CreatedOn descending
                          
@@ -59,10 +59,10 @@ namespace OneFitnessVue.Data.PaymentDetails.Queries
         {
             try
             {
-                var queryableMenuMaster = (from paymentDetails in _oneFitnessVueContext.PaymentDetailsModels.AsNoTracking()
+                var queryableMenuMaster = (from paymentDetails in _FitnessTimeGymContext.PaymentDetailsModels.AsNoTracking()
 
                                            orderby paymentDetails.NextRenewalDate ascending
-                                           join memberRegistration in _oneFitnessVueContext.MemberRegistrationModels on paymentDetails.MemberID equals memberRegistration.MemberId
+                                           join memberRegistration in _FitnessTimeGymContext.MemberRegistrationModels on paymentDetails.MemberID equals memberRegistration.MemberId
                                            
                                        
 

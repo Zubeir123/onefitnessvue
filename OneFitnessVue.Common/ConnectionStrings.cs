@@ -1,4 +1,4 @@
-﻿namespace OneFitnessVue.Common
+﻿namespace FitnessTimeGym.Common
 {
     public class ConnectionStrings
     {

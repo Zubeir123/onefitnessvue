@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace OneFitnessVue.ViewModel.Usermaster
+namespace FitnessTimeGym.ViewModel.Usermaster
 {
     public class ChangePasswordViewModel
     {

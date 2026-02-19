@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using OneFitnessVue.Model.MembershipType;
-using OneFitnessVue.ViewModel.MembershipType;
+using FitnessTimeGym.Model.MembershipType;
+using FitnessTimeGym.ViewModel.MembershipType;
 
-namespace OneFitnessVue.Data.MembershipType.Queries
+namespace FitnessTimeGym.Data.MembershipType.Queries
 {
     public interface IMembershipTypeQueries
     {

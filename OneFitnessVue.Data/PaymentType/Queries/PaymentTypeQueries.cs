@@ -2,16 +2,16 @@
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using OneFitnessVue.Data.EFContext;
+using FitnessTimeGym.Data.EFContext;
 
-namespace OneFitnessVue.Data.PaymentType.Queries
+namespace FitnessTimeGym.Data.PaymentType.Queries
 {
     public class PaymentTypeQueries : IPaymentTypeQueries
     {
-        private readonly OneFitnessVueContext _oneFitnessVueContext;
-        public PaymentTypeQueries(OneFitnessVueContext oneFitnessVueContext)
+        private readonly FitnessTimeGymContext _FitnessTimeGymContext;
+        public PaymentTypeQueries(FitnessTimeGymContext FitnessTimeGymContext)
         {
-            _oneFitnessVueContext = oneFitnessVueContext;
+            _FitnessTimeGymContext = FitnessTimeGymContext;
         }
 
         public List<SelectListItem> ListofPaymentTypes()

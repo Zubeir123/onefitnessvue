@@ -1,7 +1,7 @@
-﻿using OneFitnessVue.Model.UserMaster;
-using OneFitnessVue.ViewModel.Messages;
+﻿using FitnessTimeGym.Model.UserMaster;
+using FitnessTimeGym.ViewModel.Messages;
 
-namespace OneFitnessVue.Services.Messages
+namespace FitnessTimeGym.Services.Messages
 {
     public class EmailSender : IEmailSender
     {

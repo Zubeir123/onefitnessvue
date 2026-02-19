@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using OneFitnessVue.Model.Enquiry;
-using OneFitnessVue.ViewModel.Enquiry;
+using FitnessTimeGym.Model.Enquiry;
+using FitnessTimeGym.ViewModel.Enquiry;
 
-namespace OneFitnessVue.Data.Enquiry.Queries
+namespace FitnessTimeGym.Data.Enquiry.Queries
 {
     public interface IEnquiryQueries
     {

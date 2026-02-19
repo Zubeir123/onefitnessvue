@@ -1,12 +1,12 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-using OneFitnessVue.Data.Enquiry.Command;
-using OneFitnessVue.Data.MemberRegistration.Command;
-using OneFitnessVue.Data.PaymentDetails.Command;
-using OneFitnessVue.Data.Reporting.Command;
+using FitnessTimeGym.Data.Enquiry.Command;
+using FitnessTimeGym.Data.MemberRegistration.Command;
+using FitnessTimeGym.Data.PaymentDetails.Command;
+using FitnessTimeGym.Data.Reporting.Command;
 
-namespace OneFitnessVue.Extensions
+namespace FitnessTimeGym.Extensions
 {
     public static class ServiceCollectionCommandExtensions
     {

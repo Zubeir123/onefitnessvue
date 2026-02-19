@@ -1,25 +1,25 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using OneFitnessVue.Data.EFContext;
-using OneFitnessVue.Model.PaymentDetails;
+using FitnessTimeGym.Data.EFContext;
+using FitnessTimeGym.Model.PaymentDetails;
 
-namespace OneFitnessVue.Data.PaymentDetails.Command
+namespace FitnessTimeGym.Data.PaymentDetails.Command
 {
     public class PaymentDetailsCommand : IPaymentDetailsCommand
     {
-        private readonly OneFitnessVueContext _oneFitnessVueContext;
-        public PaymentDetailsCommand(OneFitnessVueContext oneFitnessVueContext)
+        private readonly FitnessTimeGymContext _FitnessTimeGymContext;
+        public PaymentDetailsCommand(FitnessTimeGymContext FitnessTimeGymContext)
         {
-            _oneFitnessVueContext = oneFitnessVueContext;
+            _FitnessTimeGymContext = FitnessTimeGymContext;
         }
 
         public string Add(PaymentDetailsModel paymentDetailsModel)
         {
             string result;
 
-            using var transaction = _oneFitnessVueContext.Database.BeginTransaction();
-            _oneFitnessVueContext.PaymentDetailsModels.Add(paymentDetailsModel);
-            var resultpayment = _oneFitnessVueContext.SaveChanges();
+            using var transaction = _FitnessTimeGymContext.Database.BeginTransaction();
+            _FitnessTimeGymContext.PaymentDetailsModels.Add(paymentDetailsModel);
+            var resultpayment = _FitnessTimeGymContext.SaveChanges();
 
             if (resultpayment > 0)
             {

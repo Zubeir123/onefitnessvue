@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace OneFitnessVue.Web.Views.Shared.Components.Footer
+namespace FitnessTimeGym.Web.Views.Shared.Components.Footer
 {
     public class FooterViewComponent : ViewComponent
     {

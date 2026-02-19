@@ -1,4 +1,4 @@
-﻿namespace OneFitnessVue.ViewModel.MembershipType
+﻿namespace FitnessTimeGym.ViewModel.MembershipType
 {
     
 

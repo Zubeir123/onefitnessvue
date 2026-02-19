@@ -1,4 +1,4 @@
-﻿namespace OneFitnessVue.Common.Notification
+﻿namespace FitnessTimeGym.Common.Notification
 {
     public enum NotificationType
     {

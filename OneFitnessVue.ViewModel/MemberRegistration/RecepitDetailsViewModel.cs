@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OneFitnessVue.ViewModel.MemberRegistration
+namespace FitnessTimeGym.ViewModel.MemberRegistration
 {
     public class RecepitDetailsViewModel
     {

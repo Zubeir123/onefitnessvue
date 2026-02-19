@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace OneFitnessVue.ViewModel.MemberRegistration
+namespace FitnessTimeGym.ViewModel.MemberRegistration
 {
     public class MemberRegistrationProfileViewModel
     {

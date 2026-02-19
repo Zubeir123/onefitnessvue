@@ -1,4 +1,4 @@
-﻿namespace OneFitnessVue.ViewModel.Usermaster
+﻿namespace FitnessTimeGym.ViewModel.Usermaster
 {
     public class CommonUserDetailsViewModel
     {

@@ -1,14 +1,14 @@
 ﻿using AutoMapper;
-using OneFitnessVue.Model.Enquiry;
-using OneFitnessVue.Model.MemberRegistration;
-using OneFitnessVue.ViewModel.Enquiry;
-using OneFitnessVue.ViewModel.MemberRegistration;
+using FitnessTimeGym.Model.Enquiry;
+using FitnessTimeGym.Model.MemberRegistration;
+using FitnessTimeGym.ViewModel.Enquiry;
+using FitnessTimeGym.ViewModel.MemberRegistration;
 
-namespace OneFitnessVue.Web.Mapping
+namespace FitnessTimeGym.Web.Mapping
 {
-    public class OneFitnessVueAutoMapper : Profile
+    public class FitnessTimeGymAutoMapper : Profile
     {
-        public OneFitnessVueAutoMapper()
+        public FitnessTimeGymAutoMapper()
         {
             CreateMap<MemberRegistrationViewModel, MemberRegistrationModel>();
             CreateMap<EditMemberRegistrationViewModel, MemberRegistrationModel>();

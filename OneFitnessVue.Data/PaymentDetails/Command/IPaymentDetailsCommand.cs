@@ -1,6 +1,6 @@
-﻿using OneFitnessVue.Model.PaymentDetails;
+﻿using FitnessTimeGym.Model.PaymentDetails;
 
-namespace OneFitnessVue.Data.PaymentDetails.Command
+namespace FitnessTimeGym.Data.PaymentDetails.Command
 {
     public interface IPaymentDetailsCommand
     {

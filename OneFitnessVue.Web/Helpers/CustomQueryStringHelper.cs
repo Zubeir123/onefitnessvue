@@ -5,14 +5,14 @@ using System.Linq;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Routing;
 
-namespace OneFitnessVue.Web.Helpers
+namespace FitnessTimeGym.Web.Helpers
 {
     public static class CustomQueryStringHelper
     {
         public static string EncryptString(string areas, string actionName, string controllerName, object routeValues)
         {
-            var dataProtectionProvider = DataProtectionProvider.Create("OneFitnessVue");
-            var protector = dataProtectionProvider.CreateProtector("OneFitnessVue.QueryStrings");
+            var dataProtectionProvider = DataProtectionProvider.Create("FitnessTimeGym");
+            var protector = dataProtectionProvider.CreateProtector("FitnessTimeGym.QueryStrings");
 
             string mainString;
             string queryString = string.Empty;

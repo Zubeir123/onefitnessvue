@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace OneFitnessVue.ViewModel.Login
+namespace FitnessTimeGym.ViewModel.Login
 {
     public class ForgotPasswordModel
     {

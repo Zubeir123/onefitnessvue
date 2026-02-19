@@ -1,7 +1,7 @@
-﻿using OneFitnessVue.Model.MemberRegistration;
-using OneFitnessVue.Model.PaymentDetails;
+﻿using FitnessTimeGym.Model.MemberRegistration;
+using FitnessTimeGym.Model.PaymentDetails;
 
-namespace OneFitnessVue.Data.MemberRegistration.Command
+namespace FitnessTimeGym.Data.MemberRegistration.Command
 {
     public interface IMemberRegistrationCommand
     {

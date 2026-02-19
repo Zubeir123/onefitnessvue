@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace OneFitnessVue.Model.Reporting
+namespace FitnessTimeGym.Model.Reporting
 {
     [Table("ReceiptHistory")]
     public class ReceiptHistoryModel

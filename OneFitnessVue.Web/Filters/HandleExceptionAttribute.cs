@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
 
-namespace OneFitnessVue.Web.Filters
+namespace FitnessTimeGym.Web.Filters
 {
     public class HandleExceptionAttribute : ExceptionFilterAttribute
     {

@@ -3,10 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using OneFitnessVue.Data.PaymentDetails.Queries;
-using OneFitnessVue.Web.Filters;
+using FitnessTimeGym.Data.PaymentDetails.Queries;
+using FitnessTimeGym.Web.Filters;
 
-namespace OneFitnessVue.Web.Areas.Service.Controllers
+namespace FitnessTimeGym.Web.Areas.Service.Controllers
 {
     [Area("Service")]
     [AuthorizeUser]

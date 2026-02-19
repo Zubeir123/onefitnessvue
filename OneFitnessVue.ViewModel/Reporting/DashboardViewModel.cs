@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace OneFitnessVue.ViewModel.Reporting
+namespace FitnessTimeGym.ViewModel.Reporting
 {
     public class DashboardViewModel
     {

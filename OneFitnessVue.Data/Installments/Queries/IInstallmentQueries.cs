@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
-using OneFitnessVue.ViewModel.Installments;
+using FitnessTimeGym.ViewModel.Installments;
 
-namespace OneFitnessVue.Data.Installments.Queries
+namespace FitnessTimeGym.Data.Installments.Queries
 {
     public interface IInstallmentQueries
     {

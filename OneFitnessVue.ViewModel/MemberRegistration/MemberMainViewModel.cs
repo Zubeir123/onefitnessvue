@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using OneFitnessVue.ViewModel.Documents;
-using OneFitnessVue.ViewModel.PaymentDetails;
+using FitnessTimeGym.ViewModel.Documents;
+using FitnessTimeGym.ViewModel.PaymentDetails;
 
-namespace OneFitnessVue.ViewModel.MemberRegistration
+namespace FitnessTimeGym.ViewModel.MemberRegistration
 {
     public class MemberMainViewModel
     {

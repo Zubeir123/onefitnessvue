@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Routing;
-using OneFitnessVue.Common;
+using FitnessTimeGym.Common;
 
-namespace OneFitnessVue.Web.Filters
+namespace FitnessTimeGym.Web.Filters
 {
     public class DecryptQueryStringParameterAttribute : ActionFilterAttribute
     {
@@ -16,8 +16,8 @@ namespace OneFitnessVue.Web.Filters
         {
             try
             {
-                var dataProtectionProvider = DataProtectionProvider.Create("OneFitnessVue");
-                var protector = dataProtectionProvider.CreateProtector("OneFitnessVue.QueryStrings");
+                var dataProtectionProvider = DataProtectionProvider.Create("FitnessTimeGym");
+                var protector = dataProtectionProvider.CreateProtector("FitnessTimeGym.QueryStrings");
 
                 Dictionary<string, object> decryptedParameters = new Dictionary<string, object>();
                 if (filterContext.HttpContext.Request.Query["q"].ToString() != null)

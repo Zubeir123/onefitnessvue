@@ -5,17 +5,17 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
-using OneFitnessVue.Common;
-using OneFitnessVue.Common.Notification;
+using FitnessTimeGym.Common;
+using FitnessTimeGym.Common.Notification;
 
-using OneFitnessVue.Data.GeneralSetting.Queries;
-using OneFitnessVue.Data.Reporting.Command;
-using OneFitnessVue.Data.Reporting.Queries;
-using OneFitnessVue.Model.Reporting;
-using OneFitnessVue.ViewModel.MemberRegistration;
-using OneFitnessVue.Web.Filters;
+using FitnessTimeGym.Data.GeneralSetting.Queries;
+using FitnessTimeGym.Data.Reporting.Command;
+using FitnessTimeGym.Data.Reporting.Queries;
+using FitnessTimeGym.Model.Reporting;
+using FitnessTimeGym.ViewModel.MemberRegistration;
+using FitnessTimeGym.Web.Filters;
 
-namespace OneFitnessVue.Web.Areas.Service.Controllers
+namespace FitnessTimeGym.Web.Areas.Service.Controllers
 {
     [Area("Service")]
     [AuthorizeUser]

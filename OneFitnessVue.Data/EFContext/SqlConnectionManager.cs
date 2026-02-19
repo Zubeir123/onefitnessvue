@@ -3,7 +3,7 @@ using System.Data;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 
-namespace OneFitnessVue.Data.EFContext
+namespace FitnessTimeGym.Data.EFContext
 {
     public class SqlConnectionManager : IDisposable
     {

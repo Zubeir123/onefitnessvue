@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using NLog.Web;
 
-namespace OneFitnessVue.Web
+namespace FitnessTimeGym.Web
 {
     public class Program
     {

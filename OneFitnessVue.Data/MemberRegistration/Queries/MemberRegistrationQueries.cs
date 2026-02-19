@@ -5,19 +5,19 @@ using System.Linq;
 using System.Linq.Dynamic.Core;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using OneFitnessVue.Data.EFContext;
-using OneFitnessVue.Model.MemberRegistration;
-using OneFitnessVue.ViewModel.MemberRegistration;
+using FitnessTimeGym.Data.EFContext;
+using FitnessTimeGym.Model.MemberRegistration;
+using FitnessTimeGym.ViewModel.MemberRegistration;
 
 
-namespace OneFitnessVue.Data.MemberRegistration.Queries
+namespace FitnessTimeGym.Data.MemberRegistration.Queries
 {
     public class MemberRegistrationQueries : IMemberRegistrationQueries
     {
-        private readonly OneFitnessVueContext _oneFitnessVueContext;
-        public MemberRegistrationQueries(OneFitnessVueContext oneFitnessVueContext)
+        private readonly FitnessTimeGymContext _FitnessTimeGymContext;
+        public MemberRegistrationQueries(FitnessTimeGymContext FitnessTimeGymContext)
         {
-            _oneFitnessVueContext = oneFitnessVueContext;
+            _FitnessTimeGymContext = FitnessTimeGymContext;
         }
 
         public List<SelectListItem> ListofGender()
@@ -48,7 +48,7 @@ namespace OneFitnessVue.Data.MemberRegistration.Queries
         {
             try
             {
-                var result = (from member in _oneFitnessVueContext.MemberRegistrationModels.AsNoTracking()
+                var result = (from member in _FitnessTimeGymContext.MemberRegistrationModels.AsNoTracking()
                               where member.MobileNo == mobileNo
                               select member).Any();
 
@@ -64,7 +64,7 @@ namespace OneFitnessVue.Data.MemberRegistration.Queries
         {
             try
             {
-                var result = (from member in _oneFitnessVueContext.MemberRegistrationModels.AsNoTracking()
+                var result = (from member in _FitnessTimeGymContext.MemberRegistrationModels.AsNoTracking()
                               where member.EmailId == emailId
                               select member).Any();
 
@@ -80,7 +80,7 @@ namespace OneFitnessVue.Data.MemberRegistration.Queries
         {
             try
             {
-                var queryableMenuMaster = (from mreg in _oneFitnessVueContext.MemberRegistrationModels.AsNoTracking()
+                var queryableMenuMaster = (from mreg in _FitnessTimeGymContext.MemberRegistrationModels.AsNoTracking()
                                           
                                            orderby mreg.MemberId descending
                                            select new MemberRegistrationGrid()
@@ -122,9 +122,9 @@ namespace OneFitnessVue.Data.MemberRegistration.Queries
         {
             try
             {
-                var memberRegistration = (from mreg in _oneFitnessVueContext.MemberRegistrationModels.AsNoTracking()
+                var memberRegistration = (from mreg in _FitnessTimeGymContext.MemberRegistrationModels.AsNoTracking()
                                           where mreg.MemberId == memberId
-                                          join paymentDetails in _oneFitnessVueContext.PaymentDetailsModels on mreg.MemberId equals paymentDetails.MemberID
+                                          join paymentDetails in _FitnessTimeGymContext.PaymentDetailsModels on mreg.MemberId equals paymentDetails.MemberID
                                           orderby mreg.MemberId descending
                                           select new EditMemberRegistrationViewModel()
                                           {
@@ -169,9 +169,9 @@ namespace OneFitnessVue.Data.MemberRegistration.Queries
         {
             try
             {
-                var memberRegistration = (from mreg in _oneFitnessVueContext.MemberRegistrationModels.AsNoTracking()
+                var memberRegistration = (from mreg in _FitnessTimeGymContext.MemberRegistrationModels.AsNoTracking()
                                           where mreg.MemberId == memberId
-                                          join paymentDetails in _oneFitnessVueContext.PaymentDetailsModels on mreg.MemberId equals paymentDetails.MemberID
+                                          join paymentDetails in _FitnessTimeGymContext.PaymentDetailsModels on mreg.MemberId equals paymentDetails.MemberID
                         
                                           orderby mreg.MemberId descending
                                           select new MemberRegistrationProfileViewModel()
@@ -207,7 +207,7 @@ namespace OneFitnessVue.Data.MemberRegistration.Queries
         {
             try
             {
-                var result = (from member in _oneFitnessVueContext.MemberRegistrationModels.AsNoTracking()
+                var result = (from member in _FitnessTimeGymContext.MemberRegistrationModels.AsNoTracking()
                               where member.FirstName.Contains(membername)
                               select new MemberRenewalRespone()
                               {
@@ -227,7 +227,7 @@ namespace OneFitnessVue.Data.MemberRegistration.Queries
         {
             try
             {
-                var memberRegistration = (from mreg in _oneFitnessVueContext.MemberRegistrationModels.AsNoTracking()
+                var memberRegistration = (from mreg in _FitnessTimeGymContext.MemberRegistrationModels.AsNoTracking()
                                           where mreg.MemberId == memberId
                                           select mreg
                     ).FirstOrDefault();
