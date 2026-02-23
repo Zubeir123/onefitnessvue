@@ -43,7 +43,7 @@ namespace FitnessTimeGym.Data.MembershipType.Queries
         {
             var membershiptype = new MembershipTypeModel()
             {
-                Amount = 7000.00m,
+                Amount = 200.00m,
                 CreatedBy =1,
                 CreatedOn =DateTime.Now,
                 InstallmentId =1,
