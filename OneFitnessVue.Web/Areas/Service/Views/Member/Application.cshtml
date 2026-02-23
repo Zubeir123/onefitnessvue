@@ -182,11 +182,9 @@
         $('#JoiningDate').datepicker({
             changeMonth: true,
             changeYear: true,
-            changeday: true,
             dateFormat: "yy-mm-dd",
-            yearRange: "2021:2025",
-            minDate: new Date(),
-            startDate: new Date()
+            yearRange: "2020:2030",
+            maxDate: new Date()
         });
 
         function CalculateAge(selectedDate) {
