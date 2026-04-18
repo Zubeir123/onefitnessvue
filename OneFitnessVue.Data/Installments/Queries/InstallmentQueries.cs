@@ -3,38 +3,41 @@ using FitnessTimeGym.Data.EFContext;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Dynamic.Core;
 using FitnessTimeGym.ViewModel.Installments;
 
 namespace FitnessTimeGym.Data.Installments.Queries
 {
     public class InstallmentQueries : IInstallmentQueries
     {
-      
+        private readonly FitnessTimeGymContext _context;
+
+        public InstallmentQueries(FitnessTimeGymContext context)
+        {
+            _context = context;
+        }
+
         public List<SelectListItem> GetInstallments()
         {
             try
             {
-                var installments = new List<SelectListItem>()
-                {
-                    new SelectListItem()
+                var installments = _context.Installments
+                    .Where(x => x.Status == true)
+                    .Select(x => new SelectListItem()
                     {
-                        Text = "6 Month",
-                        Value = "1"
-                    }
-                };
+                        Text = x.InstallmentName,
+                        Value = x.InstallmentId.ToString()
+                    }).ToList();
 
                 installments.Insert(0, new SelectListItem()
                 {
-                    Value = "",
-                    Text = "---Select---"
+                    Text = "---Select---",
+                    Value = ""
                 });
 
                 return installments;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-
                 throw;
             }
         }
@@ -43,21 +46,20 @@ namespace FitnessTimeGym.Data.Installments.Queries
         {
             try
             {
-                var editInstallment = new InstallmentEditViewModel()
-                {
-                    Status = true,
-                    InstallmentId = 1,
-                    InstallmentName = "6 Month",
-                    InstallmentMonths = 6
-                };
+                var installment = _context.Installments
+                    .Where(x => x.InstallmentId == installmentId)
+                    .Select(x => new InstallmentEditViewModel()
+                    {
+                        InstallmentId = x.InstallmentId,
+                        InstallmentName = x.InstallmentName,
+                        InstallmentMonths = x.InstallmentMonths,
+                        Status = x.Status
+                    }).FirstOrDefault();
 
-
-
-                return editInstallment;
+                return installment;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-
                 throw;
             }
         }

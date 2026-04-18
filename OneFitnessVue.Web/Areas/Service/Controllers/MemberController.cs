@@ -75,6 +75,7 @@ namespace FitnessTimeGym.Web.Areas.Service.Controllers
             KeyGenerator keyGenerator = new KeyGenerator();
             var uniqueNo = keyGenerator.GetUniqueKey(10).ToUpper();
             var dayofyear = DateTime.Now.DayOfYear;
+
             MemberRegistrationViewModel memberRegistration = new MemberRegistrationViewModel
             {
                 ListofGender = _memberRegistrationQueries.ListofGender(),
@@ -82,18 +83,11 @@ namespace FitnessTimeGym.Web.Areas.Service.Controllers
                 ListofWorkout = _workOutQueries.GetWorkOuts(),
                 ListofTaxTypes = _taxMasterQueries.GetTaxList(),
                 ListofPaymentTypes = _paymentTypeQueries.ListofPaymentTypes(),
-                ListofMembershipType = new List<SelectListItem>()
-                {
-                    new SelectListItem()
-                    {
-                        Text = "Select",
-                        Value = ""
-                    }
-                },
-                MemberNo = $"OFV{dayofyear.ToString()}{uniqueNo}",
+                ListofMembershipType = _membershipTypeQueries
+                    .GetAllMembershipTypes(new RequestMembershipType()),
+                MemberNo = $"OFV{dayofyear}{uniqueNo}",
                 Status = true
             };
-
 
             return View(memberRegistration);
         }
@@ -182,14 +176,8 @@ namespace FitnessTimeGym.Web.Areas.Service.Controllers
             memberRegistration.ListofInstallment = _installmentQueries.GetInstallments();
             memberRegistration.ListofWorkout = _workOutQueries.GetWorkOuts();
             memberRegistration.ListofPaymentTypes = _paymentTypeQueries.ListofPaymentTypes();
-            memberRegistration.ListofMembershipType = new List<SelectListItem>()
-            {
-                new SelectListItem()
-                {
-                    Text = "Select",
-                    Value = ""
-                }
-            };
+            memberRegistration.ListofMembershipType =
+                _membershipTypeQueries.GetAllMembershipTypes(new RequestMembershipType());
             return View(memberRegistration);
         }
 
@@ -209,14 +197,8 @@ namespace FitnessTimeGym.Web.Areas.Service.Controllers
             memberRegistration.ListofWorkout = _workOutQueries.GetWorkOuts();
             memberRegistration.ListofTaxTypes = _taxMasterQueries.GetTaxList();
             memberRegistration.ListofPaymentTypes = _paymentTypeQueries.ListofPaymentTypes();
-            memberRegistration.ListofMembershipType = new List<SelectListItem>()
-            {
-                new SelectListItem()
-                {
-                    Text = "Select",
-                    Value = ""
-                }
-            };
+            memberRegistration.ListofMembershipType =
+                _membershipTypeQueries.GetAllMembershipTypes(new RequestMembershipType());
 
             return View(memberRegistration);
         }
@@ -235,14 +217,8 @@ namespace FitnessTimeGym.Web.Areas.Service.Controllers
                 memberRegistration.ListofInstallment = _installmentQueries.GetInstallments();
                 memberRegistration.ListofWorkout = _workOutQueries.GetWorkOuts();
                 memberRegistration.ListofPaymentTypes = _paymentTypeQueries.ListofPaymentTypes();
-                memberRegistration.ListofMembershipType = new List<SelectListItem>()
-                {
-                    new SelectListItem()
-                    {
-                        Text = "Select",
-                        Value = ""
-                    }
-                };
+                memberRegistration.ListofMembershipType =
+                    _membershipTypeQueries.GetAllMembershipTypes(new RequestMembershipType());
 
                 if (editmemberRegistration.MobileNo != memberRegistration.MobileNo)
                 {

@@ -5,24 +5,30 @@ using FitnessTimeGym.ViewModel.MembershipType;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Dynamic.Core;
 
 namespace FitnessTimeGym.Data.MembershipType.Queries
 {
     public class MembershipTypeQueries : IMembershipTypeQueries
     {
+        private readonly FitnessTimeGymContext _context;
+
+        public MembershipTypeQueries(FitnessTimeGymContext context)
+        {
+            _context = context;
+        }
+
         public List<SelectListItem> GetAllMembershipTypes(RequestMembershipType requestMembershipType)
         {
             try
             {
-                var membershiptypelist = new List<SelectListItem>()
-                {
-                    new SelectListItem()
+
+                var membershiptypelist = _context.MembershipTypes
+                    .Where(x => x.Status == true)
+                    .Select(x => new SelectListItem()
                     {
-                        Text = "Gym 6 Months",
-                        Value = "1"
-                    }
-                };
+                        Text = x.MembershipTypeName,
+                        Value = x.MembershipTypeId.ToString()
+                    }).ToList();
 
                 membershiptypelist.Insert(0, new SelectListItem()
                 {
@@ -32,32 +38,18 @@ namespace FitnessTimeGym.Data.MembershipType.Queries
 
                 return membershiptypelist;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-
                 throw;
             }
         }
 
         public MembershipTypeModel MembershipTypeDetailsByMembershipTypeId(int? membershipTypeId)
         {
-            var membershiptype = new MembershipTypeModel()
-            {
-                Amount = 200.00m,
-                CreatedBy =1,
-                CreatedOn =DateTime.Now,
-                InstallmentId =1,
-                MembershipTypeId = 1,
-                MembershipTypeName = "Gym 6 Months",
-                ModifiedBy = 0,
-                ModifiedOn = DateTime.Now,
-                Status = true,
-                WorkOutId = 1
-            };
+            var membershiptype = _context.MembershipTypes
+                .FirstOrDefault(x => x.MembershipTypeId == membershipTypeId);
 
             return membershiptype;
         }
-
-     
     }
 }

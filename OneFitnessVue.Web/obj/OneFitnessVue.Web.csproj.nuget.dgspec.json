@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Web\\OneFitnessVue.Web.csproj": {}
+    "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Web\\OneFitnessVue.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj": {
+    "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj",
+        "projectUniqueName": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj",
         "projectName": "OneFitnessVue.Common",
-        "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj",
+        "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj",
         "packagesPath": "C:\\Users\\zubeir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\obj\\",
+        "outputPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -47,8 +47,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
@@ -67,22 +67,22 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj": {
+    "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj",
+        "projectUniqueName": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj",
         "projectName": "OneFitnessVue.Data",
-        "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj",
+        "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj",
         "packagesPath": "C:\\Users\\zubeir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\obj\\",
+        "outputPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -93,21 +93,21 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj"
               },
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj"
               }
             }
           }
@@ -125,8 +125,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -136,21 +136,25 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[8.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.Relational": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[8.0.0, )"
             },
-            "System.Data.SqlClient": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[4.8.2, )"
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "System.Linq.Dynamic.Core": {
               "target": "Package",
@@ -169,22 +173,22 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\OneFitnessVue.Extensions.csproj": {
+    "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\OneFitnessVue.Extensions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\OneFitnessVue.Extensions.csproj",
+        "projectUniqueName": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\OneFitnessVue.Extensions.csproj",
         "projectName": "OneFitnessVue.Extensions",
-        "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\OneFitnessVue.Extensions.csproj",
+        "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\OneFitnessVue.Extensions.csproj",
         "packagesPath": "C:\\Users\\zubeir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\obj\\",
+        "outputPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -195,27 +199,27 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj"
               },
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj"
               },
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj"
               },
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj"
               }
             }
           }
@@ -233,8 +237,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -253,22 +257,22 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
+    "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj",
+        "projectUniqueName": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj",
         "projectName": "OneFitnessVue.Model",
-        "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj",
+        "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj",
         "packagesPath": "C:\\Users\\zubeir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\obj\\",
+        "outputPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -279,18 +283,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj"
               }
             }
           }
@@ -308,8 +312,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "System.ComponentModel.Annotations": {
               "target": "Package",
@@ -328,22 +332,22 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj": {
+    "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj",
+        "projectUniqueName": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj",
         "projectName": "OneFitnessVue.Services",
-        "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj",
+        "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj",
         "packagesPath": "C:\\Users\\zubeir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\obj\\",
+        "outputPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -354,24 +358,24 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj"
               },
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj"
               },
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj"
               }
             }
           }
@@ -389,8 +393,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -403,22 +407,22 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj": {
+    "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj",
+        "projectUniqueName": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj",
         "projectName": "OneFitnessVue.ViewModel",
-        "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj",
+        "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj",
         "packagesPath": "C:\\Users\\zubeir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\obj\\",
+        "outputPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -429,18 +433,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj"
               }
             }
           }
@@ -458,8 +462,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
@@ -482,22 +486,22 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Web\\OneFitnessVue.Web.csproj": {
+    "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Web\\OneFitnessVue.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Web\\OneFitnessVue.Web.csproj",
+        "projectUniqueName": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Web\\OneFitnessVue.Web.csproj",
         "projectName": "OneFitnessVue.Web",
-        "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Web\\OneFitnessVue.Web.csproj",
+        "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Web\\OneFitnessVue.Web.csproj",
         "packagesPath": "C:\\Users\\zubeir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Web\\obj\\",
+        "outputPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -508,33 +512,33 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj"
               },
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj"
               },
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\OneFitnessVue.Extensions.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\OneFitnessVue.Extensions.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\OneFitnessVue.Extensions.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\OneFitnessVue.Extensions.csproj"
               },
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj"
               },
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj"
               },
-              "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj": {
-                "projectPath": "C:\\Users\\zubeir\\mainfolder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj"
+              "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj": {
+                "projectPath": "C:\\Users\\zubeir\\main folder\\systems\\gym-management-system\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj"
               }
             }
           }
@@ -552,8 +556,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -575,13 +579,11 @@
               "target": "Package",
               "version": "[5.0.2, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -611,7 +613,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

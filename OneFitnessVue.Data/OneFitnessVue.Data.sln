@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneFitnessVue.Data", "OneFitnessVue.Data.csproj", "{B2D1A7D9-C85F-E4EF-8981-E6B111390439}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2D1A7D9-C85F-E4EF-8981-E6B111390439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D1A7D9-C85F-E4EF-8981-E6B111390439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D1A7D9-C85F-E4EF-8981-E6B111390439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D1A7D9-C85F-E4EF-8981-E6B111390439}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {548152CB-E3FA-4D0C-8276-812BEB5DF1F0}
+	EndGlobalSection
+EndGlobal

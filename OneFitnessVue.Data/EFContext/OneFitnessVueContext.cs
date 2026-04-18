@@ -8,6 +8,9 @@ using FitnessTimeGym.Model.PaymentDetails;
 using FitnessTimeGym.Model.Reasons;
 using FitnessTimeGym.Model.Reporting;
 using FitnessTimeGym.Model.UserMaster;
+using FitnessTimeGym.Model.Installments;
+using FitnessTimeGym.Model.MembershipType;
+using FitnessTimeGym.Model.WorkOut;
 
 namespace FitnessTimeGym.Data.EFContext
 {
@@ -27,5 +30,8 @@ namespace FitnessTimeGym.Data.EFContext
         public DbSet<ReceiptHistoryModel> ReceiptHistory { get; set; }
         public DbSet<EnquiryModel> EnquiryModels { get; set; }
         public DbSet<ReasonsModel> ReasonsModels { get; set; }
+        public DbSet<WorkOutModel> WorkOuts { get; set; }
+        public DbSet<InstallmentModel> Installments { get; set; }
+        public DbSet<MembershipTypeModel> MembershipTypes { get; set; }
     }
 }

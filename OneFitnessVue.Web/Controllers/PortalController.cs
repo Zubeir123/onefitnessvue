@@ -83,7 +83,7 @@ namespace FitnessTimeGym.Web.Controllers
 
                    
                     var hiddentoken = HttpContext.Session.GetString("Hdrandomtoken");
-                 
+
                     if (ConcateTokenandPassword(loggedInuserdetails.PasswordHash, hiddentoken) == loginViewModel.Password)
                     {
                         SetAuthenticationCookie();
